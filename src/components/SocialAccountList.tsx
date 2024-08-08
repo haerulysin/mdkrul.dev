@@ -14,15 +14,15 @@ export default function SocialAccountList() {
         <GithubSVG width={25} />
       </SocialLink>
 
-      <SocialLink hrefUrl={socialMediaUrl.github}>
+      <SocialLink hrefUrl={socialMediaUrl.linkedin}>
         <LinkedInSVG width={25} />
       </SocialLink>
 
-      <SocialLink hrefUrl={socialMediaUrl.github}>
+      <SocialLink hrefUrl={socialMediaUrl.x}>
         <TwitterSVG width={25} />
       </SocialLink>
 
-      <SocialLink hrefUrl={socialMediaUrl.github}>
+      <SocialLink hrefUrl={socialMediaUrl.instagram}>
         <InstagramSVG width={25} />
       </SocialLink>
     </div>
