@@ -10,7 +10,7 @@ const SocialLink: React.FC<SocialLinkProps> = ({
   hrefUrl
 }: SocialLinkProps) => {
   return (
-    <Link href={hrefUrl} target="_blank" className="hover:scale-125 transition duration-300">
+    <Link href={hrefUrl} target="_blank" className="hover:scale-125 transition duration-300" aria-label={hrefUrl}>
       {children}
     </Link>
   );

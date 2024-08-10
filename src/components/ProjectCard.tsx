@@ -10,7 +10,7 @@ export default function ProjectCard(props: Project) {
         <div className="">
           <Link href={props.githubUrl} target="_blank" className="group">
             <div className="flex w-fit gap-0.5 text-gray-700 duration-500  group-hover:text-black">
-              <h5 className="font-bold text-lg ">{props.name}</h5>
+              <h2 className="font-bold text-lg ">{props.name}</h2>
               <ArrowRightUp
                 width={10}
                 className="duration-300 group-hover:translate-x-1  group-hover:-translate-y-0.5"

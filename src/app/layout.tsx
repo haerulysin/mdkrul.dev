@@ -45,8 +45,10 @@ export const metadata: Metadata = {
     "software engineer",
     "engineering",
   ],
-  metadataBase:new URL("https://fbgz1ctc-3000.asse.devtunnels.ms"),
-  manifest: "/site.webmanifest",
+  metadataBase:new URL("https://mdkrul.dev"),
+  alternates:{
+    canonical:"./"
+  }
 };
 
 export default function RootLayout({

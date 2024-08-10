@@ -8,7 +8,7 @@ export default function SubSection({ children, title }: SubSectionProps) {
   return (
     <>
       <div className="flex flex-col gap-1">
-        <h5 className="font-extrabold text-xl mb-4">{title}</h5>
+        <h1 className="font-extrabold text-xl mb-4">{title}</h1>
         <div className="text-">{children}</div>
       </div>
     </>

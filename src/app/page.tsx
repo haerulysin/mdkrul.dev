@@ -74,15 +74,15 @@ export default function Home() {
           ))}
         </div>
         <div className="my-8 py-2 text-center items-center">
-          <Button>
-            <Link
-              href={socialMediaUrl.github}
-              target="_blank"
-              className="flex gap-2 items-center"
-            >
+          <Link
+            href={socialMediaUrl.github}
+            target="_blank"
+            className="flex gap-2 items-center"
+          >
+            <Button>
               <GithubSVG height={20} fill="#fff" /> View More On Github
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </div>
       </SubSection>
       <HRule />
