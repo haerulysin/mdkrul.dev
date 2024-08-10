@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
-import localFont from "@next/font/local";
+import localFont from "next/font/local";
 import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
@@ -14,8 +14,9 @@ const MonaspaceKrypton = localFont({
       weight: "600",
     },
   ],
-
+  display: "swap",
   variable: "--font-krypton",
+  fallback:['system-ui', 'arial']
 });
 
 const MonaspaceNeon = localFont({
@@ -25,7 +26,9 @@ const MonaspaceNeon = localFont({
       weight: "400",
     },
   ],
+  display: "swap",
   variable: "--font-neon",
+  fallback:['system-ui', 'arial']
 });
 
 export const metadata: Metadata = {
@@ -45,10 +48,10 @@ export const metadata: Metadata = {
     "software engineer",
     "engineering",
   ],
-  metadataBase:new URL("https://mdkrul.dev"),
-  alternates:{
-    canonical:"./"
-  }
+  metadataBase: new URL("https://mdkrul.dev"),
+  alternates: {
+    canonical: "./",
+  },
 };
 
 export default function RootLayout({

@@ -1,3 +1,4 @@
+"strict";
 import {
   Experience,
   myExperience,
@@ -73,13 +74,9 @@ export default function Home() {
             <ProjectCard key={i} {...v} />
           ))}
         </div>
-        <div className="my-8 py-2 text-center items-center">
-          <Link
-            href={socialMediaUrl.github}
-            target="_blank"
-            className="flex gap-2 items-center"
-          >
-            <Button>
+        <div className="my-8 py-2 text-center flex items-center justify-center">
+          <Link href={socialMediaUrl.github} target="_blank" className="">
+            <Button className="flex gap-2 items-center">
               <GithubSVG height={20} fill="#fff" /> View More On Github
             </Button>
           </Link>

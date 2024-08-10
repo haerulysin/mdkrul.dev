@@ -10,7 +10,7 @@ const StackList: React.FC<StackListProps> = ({}: StackListProps) => {
   const totalImage = Math.ceil(reqSvgs.keys().length / 2);
   return (
     <div
-      className={`grid sm:grid-flow-col grid-cols-${totalImage} gap-2 items-center group`}
+      className={`grid md:grid-flow-col grid-cols-${totalImage/2} gap-2 items-center group`}
     >
       {reqSvgs.keys().map((fileName: string, i: number) => (
         // TODO: Add Tooltip
