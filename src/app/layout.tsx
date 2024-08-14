@@ -4,7 +4,7 @@ import "./globals.css";
 import NavBar from "@/components/NavBar";
 import localFont from "next/font/local";
 import Footer from "@/components/Footer";
-
+import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 const MonaspaceKrypton = localFont({
@@ -68,6 +68,7 @@ export default function RootLayout({
         <main className="container max-w-3xl m-auto px-4 py-4">{children}</main>
         <Footer />
       </body>
+      <Analytics/>
     </html>
   );
 }
