@@ -32,7 +32,7 @@ const MonaspaceNeon = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "mdkrul.dev",
+  title: "mdrul.dev",
   description: "Muh. Khaerul Personal Portofolio",
   icons: {
     icon: ["/favicon.ico?v=4"],
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     "software engineer",
     "engineering",
   ],
-  metadataBase: new URL("https://mdkrul.dev"),
+  metadataBase: new URL("https://mdrul.dev"),
   alternates: {
     canonical: "./",
   },

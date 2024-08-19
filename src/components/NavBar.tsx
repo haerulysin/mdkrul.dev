@@ -9,7 +9,7 @@ export default function NavBar() {
           href={"/"}
           className="flex items-start gap-1 py-4 hover:opacity-80"
         >
-          <span className="title-nav text-black">.mdkrul.dev</span>
+          <span className="title-nav text-black">.mdrul.dev</span>
           <div className="flex items-center bg-black text-white px-2 py-1 rounded-md">
             <span className="subtitle-nav space-5">portofolio</span>
           </div>

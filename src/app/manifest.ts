@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: ".mdkrul.dev",
-    short_name: "mdkrul.dev",
+    name: ".mdrul.dev",
+    short_name: "mdrul.dev",
     description: "Muh. Khaerul Personal Portofolio",
     theme_color: "#ffffff",
     background_color: "#ffffff",

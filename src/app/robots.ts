@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://mdkrul.dev/sitemap.xml",
+    sitemap: "https://mdrul.dev/sitemap.xml",
   };
 }
